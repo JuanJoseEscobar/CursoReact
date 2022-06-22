@@ -29,7 +29,7 @@ printPersona( persona );
 
 
 //extracion de objetos anidados
-const userContext = ({ clave, nombre, edad})=>{//si el rango existe extraigalo si no, asignelo
+const userContext = ({ clave, nombre, edad})=>{
     return{
         nombreClave: clave,
         anions: edad,
