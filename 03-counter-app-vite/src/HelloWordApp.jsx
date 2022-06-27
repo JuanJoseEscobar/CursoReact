@@ -11,7 +11,7 @@ import { FirstApp } from "./FirstApp";
 
 const HelloWordApp = () => {
   return (
-    <FirstApp tittle = "Hola Mundo" subtittle = { 252525 }/>
+    <FirstApp /* tittle = "Hola Mundo" */ /* subtittle = { 252525 } *//>
   )
 }
 

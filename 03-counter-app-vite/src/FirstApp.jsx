@@ -28,3 +28,8 @@ FirstApp.propTypes = {
   tittle: PropTypes.string.isRequired,
   subtittle: PropTypes.number.isRequired
 }
+
+FirstApp.defaultProps = {
+  tittle: "No Hay titulo",
+  subtittle: "No Hay subtittle",
+}
