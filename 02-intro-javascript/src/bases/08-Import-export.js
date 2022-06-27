@@ -18,6 +18,7 @@ const getHeroByOwner = (owner) => {
 //console.log(getHeroByOwner('DC'));
 
 export{
+    //getHeroById as default,
     getHeroById,
     getHeroByOwner,
 }
