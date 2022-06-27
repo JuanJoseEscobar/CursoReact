@@ -23,12 +23,13 @@ export const FirstApp = ( {tittle, subtittle} ) => {
 }
 
 
-//prototipo
+//requisitos
 FirstApp.propTypes = {
   tittle: PropTypes.string.isRequired,
   subtittle: PropTypes.number.isRequired
 }
 
+//defectos
 FirstApp.defaultProps = {
   tittle: "No Hay titulo",
   subtittle: "No Hay subtittle",
