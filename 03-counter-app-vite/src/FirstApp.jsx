@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';//tienen que instalarse en vite: npm install prop-types  
 
 const newMessage = {
   message: 'Hola Mundo',
@@ -9,7 +9,7 @@ const getWaifu = ()=>{
   return 'Toga Himiko';
 };
 
-export const FirstApp = ( {tittle, subtittle} ) => {
+export const FirstApp = ( {tittle, subtittle} ) => {//rafc
   
 
   return (
